@@ -76,9 +76,17 @@ padding-right: 7dvw;
     list-style: none;
 }
 
+
 .navbar-middle a {
     color: #8C7B68;
     text-decoration: none;
+}
+
+.navbar-middle a:hover {
+    color: white;
+    text-decoration-line: underline;
+    text-underline-offset: 1dvh;
+    transition: 0.5s ease-in-out;
 }
 
 .navbar-order-now {
@@ -571,6 +579,12 @@ padding-right: 7dvw;
     justify-self: end;
 }
 
+.menu-section-full-menu:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.5s ease;
+}
+
 .menu-section-catalog-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -589,6 +603,12 @@ padding-right: 7dvw;
     position: relative;
 }
 
+.menu-section-catalog-card:hover {
+    border-bottom: 2px solid #c8813a;
+    background: linear-gradient(150deg, #c9731e0a 30%, #1e1814dc 95%);
+    transition: 0.7s ease-in-out;
+}
+
 .menu-section-catalog-card-number {
     font-family: "Cormorant Garamond", serif;
 }
@@ -604,6 +624,11 @@ padding-right: 7dvw;
     background: linear-gradient(150deg, #c9731e3f 30%, #1E1814 95%);
     border: 1px solid #c8813a27;
     border-bottom: 2px solid #c8813a;
+}
+
+.featured-card:hover {
+    background: linear-gradient(150deg, #c9731e8f 30%, #1E1814 95%);
+    transition: 0.7s ease-in-out;
 }
 
 .featured-icon {
@@ -1166,7 +1191,6 @@ padding-right: 7dvw;
 
 
 
-
 @media (max-width: 768px) {
 
     /* NAVBAR */
@@ -1506,3 +1530,4 @@ padding-right: 7dvw;
         line-height: 3dvh;
     }    
 }
+
