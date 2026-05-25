@@ -1572,6 +1572,12 @@ padding-right: 7dvw;
     }    
 }
 
+@media (max-width: 263px) {
+    .hero-section-right {
+        display: none;
+    }
+}
+
 @media (max-width: 309px) {
     .circle1 {
         width: 40dvh;
