@@ -1601,6 +1601,10 @@ padding-right: 7dvw;
         left: 3dvw;
         transform: rotate(220deg);
     }
+
+    .hero-section-right-bottom-corner-div {
+        width: 50%;
+    }
 }
 
 @media (min-width: 370px) and (max-width: 499px) {
@@ -1622,7 +1626,7 @@ padding-right: 7dvw;
 
 @media (max-width: 400px) {
     .hero-section-right-bottom-corner {
-        width: 65%;
+        width: 75%;
     }
 
     .hero-section-right-bottom-corner-div p {
