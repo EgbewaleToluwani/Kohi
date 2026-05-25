@@ -205,7 +205,9 @@ padding-right: 7dvw;
 
 .circle-collection {
     position: absolute;
-    top: 30dvh;
+    /* top: 30dvh; */
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
     height: 60dvh;
     display: flex;
@@ -1243,8 +1245,47 @@ padding-right: 7dvw;
     }
 
     .hero-section-right {
-        display: none;
+        place-self: center;
+        margin-top: 15dvh;
+        width: 90dvw;
+        /* height: 120dvw; */
     }
+
+    .hero-section-right-background {
+        height: 70dvh;
+    }
+
+    .circle1 {
+        width: 45dvh;
+        height: 45dvh;
+    }
+
+    .circle2 {
+        width: 30dvh;
+        height: 30dvh;
+    }
+
+    .circle3 {
+        width: 17dvh;
+        height: 17dvh;
+    }
+
+    .light-spot {
+        transform: rotate(210deg);
+        left: 3dvw;
+        top: 4dvh;
+    }
+
+    /* 
+    
+    YOU
+    ARE
+    HER
+    !!!!!!!
+    
+    
+    
+    */
 
     /* MARQUEE */
 
@@ -1531,3 +1572,36 @@ padding-right: 7dvw;
     }    
 }
 
+@media (min-width: 370px) and (max-width: 499px) {
+    .light-spot {
+        height: 5dvh;
+        left: 4dvw;
+        top: 3dvh;
+        transform: rotate(215deg);
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .light-spot {
+        height: 6dvh;
+        top: 3dvh;
+        transform: rotate(215deg);
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-section-right-bottom-corner {
+        width: 65%;
+    }
+
+    .hero-section-right-bottom-corner-div p {
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 768px) {
+    .light-spot {
+        left: 2dvw;
+        width: 3dvw;
+    }
+}
