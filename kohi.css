@@ -1572,6 +1572,31 @@ padding-right: 7dvw;
     }    
 }
 
+@media (max-width: 309px) {
+    .circle1 {
+        width: 40dvh;
+        height: 40dvh;
+    }
+
+    .circle2 {
+        width: 25dvh;
+        height: 25dvh;
+    }
+
+    .circle3 {
+        width: 12dvh;
+        height: 12dvh;
+    }
+
+    .light-spot {
+        width: 3dvw;
+        height: 3dvh;
+        top: 2dvh;
+        left: 3dvw;
+        transform: rotate(220deg);
+    }
+}
+
 @media (min-width: 370px) and (max-width: 499px) {
     .light-spot {
         height: 5dvh;
