@@ -1263,8 +1263,10 @@ padding-right: 7dvw;
     }
 
     .circle1 {
-        width: 45dvh;
-        height: 45dvh;
+        width: 43dvh;
+        max-width: 43dvh;
+        height: 43dvh;
+        max-height: 43dvh;
     }
 
     .circle2 {
@@ -1286,17 +1288,6 @@ padding-right: 7dvw;
     .hero-section-right-bottom-corner {
         width: 75%;
     }
-
-    /* 
-    
-    YOU
-    ARE
-    HER
-    !!!!!!!
-    
-    
-    
-    */
 
     /* MARQUEE */
 
@@ -1592,7 +1583,9 @@ padding-right: 7dvw;
 @media (max-width: 309px) {
     .circle1 {
         width: 40dvh;
+        max-width: 40dvh;
         height: 40dvh;
+        max-height: 40dvh;
     }
 
     .circle2 {
@@ -1633,16 +1626,6 @@ padding-right: 7dvw;
         top: 3dvh;
         transform: rotate(215deg);
     }
-}
-
-@media (max-width: 400px) {
-    /* .hero-section-right-bottom-corner {
-        width: 75%;
-    }
-
-    .hero-section-right-bottom-corner-div p {
-        font-size: 9px;
-    } */
 }
 
 @media (min-width: 651px) and (max-width: 768px) {
