@@ -12,13 +12,14 @@ body {
 }
 
 html {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     /* height: 100%; */
     overflow: hidden;
 }
 
 section {
     scroll-margin-top: 10dvh;
+    scroll-behavior: smooth;
 }
 
 /* 
